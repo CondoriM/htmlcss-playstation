@@ -47,3 +47,12 @@ section .row{
     height: 100px;
     background-color: chartreuse;
 }
+
+.col-5{
+    height: 40px;
+    background-color: coral;
+}
+
+footer{
+    background-color: cornflowerblue;
+}
