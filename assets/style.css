@@ -27,3 +27,23 @@ header .container-fluid{
     height: 100px;
     background-color: pink;
 }
+
+.explore{
+    background-color: brown;
+    height: 100px;
+}
+
+.explore .cols-4{
+    background-color: blueviolet;
+    height: 50px;
+}
+
+section .container{
+    background-color: blanchedalmond;
+    height: 200px;
+}
+
+section .row{
+    height: 100px;
+    background-color: chartreuse;
+}
