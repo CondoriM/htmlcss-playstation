@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.font_t{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+}
+
 .sony_log{
     width: 10px;
 }
