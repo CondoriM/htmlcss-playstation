@@ -9,6 +9,7 @@
 }
 
 :root{
+    --bg-plus: #bebcbb;
 }
 
 /*bg sections*/
@@ -31,4 +32,10 @@
 
 img{
     width: 100%;
+}
+
+/*play station plus section*/
+
+.bg_plus{
+    background: var(--bg-plus);
 }
