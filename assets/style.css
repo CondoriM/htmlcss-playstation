@@ -10,6 +10,10 @@
 
 :root{
     --bg-plus: #bebcbb;
+    --bg-now: #161c3b;
+    --bg-foot: #00439c;
+    
+    --btn-special: #d9dadc;
 }
 
 /*bg sections*/
@@ -38,4 +42,25 @@ img{
 
 .bg_plus{
     background: var(--bg-plus);
+}
+
+.btn_special{
+    background-color: var(--btn-special);
+}
+
+/*play station now section*/
+
+.bg_now{
+    background: var(--bg-now);
+}
+
+/*footer section*/
+
+.bg_foot{
+    background-color: var(--bg-foot);
+}
+
+.global_svg{
+    display: inline-block;
+    width: 1rem;
 }
