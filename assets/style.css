@@ -14,6 +14,29 @@
     --bg-foot: #00439c;
     
     --btn-special: #d9dadc;
+    --act-hover: #0072ce;
+}
+
+.size{
+    font-size: 20px;
+    vertical-align: text-top;
+}
+/*Active*/
+.bord_b:active{
+
+}
+
+.col-2:hover .bot_bord{
+    border-bottom: var(--act-hover) 3px solid;
+}
+
+/*cards games*/
+.border_c{
+    border-radius: 15px;
+}
+
+.bg_tras{
+    background-color: transparent;
 }
 
 /*bg sections*/
