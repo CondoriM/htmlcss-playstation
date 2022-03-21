@@ -19,26 +19,82 @@
     <header class="img_bg">
 
       <!-- logo sony -->
-      <div class="row bg-dark justify-content-end">
-        <div class="col-1">
-          <img src="./img/sony_logo.svg" alt="">
+      <div class="container-fluid">
+        <div class="row bg-dark justify-content-end">
+          <div class="col-1">
+            <img src="./img/sony_logo.svg" alt="">
+          </div>
         </div>
       </div>
       
-      <!-- logo navbar -->
-      <nav class="navbar navbar-light bg-light">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light" aria-label="Main navigation">
         <div class="container-fluid">
+
+          <!-- logo navbar -->
           <a class="navbar-brand" href="#">
             <img src="./img/play_logo.svg" alt="" width="60" height="40" class="d-inline-block align-text-top">
           </a>
+
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#">Giochi</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Hardware</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Servizi</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Novità</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Fai acquisti</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          
+            <form class="d-flex">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" aria-current="page" href="#">My PLayStation</a>
+                </li>
+                <li>
+                  <button class="btn rounded-pill bg-dark text-white" type="submit">Accedi</button>  
+                </li>
+                <li>
+                  <img src="./img/lens.svg" width="20" height="25" class="px-2">
+                </li>
+              </ul>
+            </form>
+          </div>
         </div>
       </nav>
 
       <div class="container-fluid hero_img py-5">
 
-        <div class="col-4 text-white">
+        <div class="col-4 text-white pt-5 px-3">
 
-          <div class="col-4"><img src="./img/returnal-hero-banner-logo.png" alt=""></div>
+          <div class="col-4 mt-5"><img src="./img/returnal-hero-banner-logo.png" alt=""></div>
           <h1 class="py-3">Rompi il cerchio</h1>
           <p>Rialzzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
           <a class="btn btn-danger rounded-pill">Acquista ora</a>
@@ -52,58 +108,69 @@
     <main>
 
       <!-- blocchi app -->
-      <div class="row justify-content-evenly py-5 p-4">
+      <div class="container-fluid">
+        <div class="row justify-content-evenly py-5 p-4">
 
-        <div class="col-2"><img class="rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-        <div class="col-2"><img class="rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-        <div class="col-2"><img class="rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-        <div class="col-2"><img class="rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-        <div class="col-2"><img class="rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-        <div class="col-2"><img class="rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+          <div class="col-2"><img class="rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+          <div class="col-2"><img class="rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+          <div class="col-2"><img class="rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+          <div class="col-2"><img class="rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+          <div class="col-2"><img class="rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+          <div class="col-2"><img class="rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
 
+        </div>
       </div>
 
       <!-- titolo play station 5 -->
-      <div class="row text-center py-3">
+      <div class="container-fluid">
+        <div class="row text-center py-3">
 
-        <a class="text-decoration-none" href="#">PLAY HAS NO LIMITS</a>
-        <h2>Ecco la PlayStation 5</h2>
-        <p class="text-secondary">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
-
+          <a class="text-decoration-none" href="#">PLAY HAS NO LIMITS</a>
+          <h2>Ecco la PlayStation 5</h2>
+          <p class="text-secondary">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+  
+        </div>
       </div>
 
       <!-- sezione playstation 5 img -->
-      <div class="row px-5">
+      <div class="container-fluid">
+        <div class="row px-5">
 
-        <div class="col-6 align-self-center">
+          <div class="col-6 align-self-center">
 
-          <h2>Console PlayStation 5</h2>
-          <p class="text-secondary">Sperimenta le nuove generazione di incredibili giochi PlayStation</p>
-          <a class="btn btn-primary rounded-pill">Maggiori informazioni</a>
+            <h2>Console PlayStation 5</h2>
+            <p class="text-secondary">Sperimenta le nuove generazione di incredibili giochi PlayStation</p>
+            <a class="btn btn-primary rounded-pill">Maggiori informazioni</a>
 
-        </div>
-        
-        <div class="col-6">
-          <img src="./img/playstation-5-thumb.png" alt="">
+          </div>
+          
+          <div class="col-6">
+            <img src="./img/playstation-5-thumb.png" alt="">
+          </div>
+
         </div>
 
       </div>
 
       <!-- riga gadget -->
-      <div class="row justify-content-evenly px-3">
+      <div class="container-fluid">
 
-        <div class="col-2"><img src="./img/playstation-5-thumb.png" alt=""></div>
-        <div class="col-2"><img src="./img/joypad-thumb.png" alt=""></div>
-        <div class="col-2"><img src="./img/headset-thumb.png" alt=""></div>
-        <div class="col-2"><img src="./img/remote-thumb.png" alt=""></div>
-        <div class="col-2"><img src="./img/camera-thumb.jpg" alt=""></div>
+        <div class="row justify-content-evenly">
+
+          <div class="col-2"><img src="./img/playstation-5-thumb.png" alt=""></div>
+          <div class="col-2"><img src="./img/joypad-thumb.png" alt=""></div>
+          <div class="col-2"><img src="./img/headset-thumb.png" alt=""></div>
+          <div class="col-2"><img src="./img/remote-thumb.png" alt=""></div>
+          <div class="col-2"><img src="./img/camera-thumb.jpg" alt=""></div>
+
+        </div>
 
       </div>
 
       <!-- game background -->
       <section>
 
-        <div class="container-fluid game_bg text-white p-5">
+        <div class="container-fluid game_bg text-white p-5 my-5">
 
           <!-- logo it takes two -->
           <div class="row p-3">
@@ -135,117 +202,119 @@
           <h4>Giochi incredibili per PS4 e PS5 disponibili ora</h4>
           
           <!-- riquadri -->
-          <div class="row g-5">
+          <div class="container-fluid">
+            <div class="row g-5">
 
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick ex.</p>
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick ex.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick exam</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick exam</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example textt.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example textt.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick et.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick et.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick exampleent.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick exampleent.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to but.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to but.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example t.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example t.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to b.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to b.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to b.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to b.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build .</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build .</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="col-2">
-              <div class="card" style="">
-                <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text.</p>
+  
+              <div class="col-2">
+                <div class="card" style="">
+                  <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-          </div> 
+  
+            </div> 
+          </div>
 
         </div>
       </section>
@@ -257,41 +326,44 @@
         <p class="text-secondary">Giochi incredibili e intrattenimento senza fine.<br>
           Non c’è mai stato un momento migliore per giocare sulla tua PS4.</p>
 
-        <div class="row px-3">
+        <div class="container-fluid">
 
-          <div class="col-4">
-            <div class="card border-0">
-              <img src="./img/ps4-slim-homepage-image-block.jpg" class="card-img-top" alt="...">
-              <div class="card-body text-start">
-                <h4 class="card-title">Play Station 4</h4>
-                <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary rounded-pill">Go somewhere</a>
+          <div class="row">
+
+            <div class="col-4">
+              <div class="card border-0">
+                <img src="./img/ps4-slim-homepage-image-block.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                  <h4 class="card-title">Play Station 4</h4>
+                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary rounded-pill">Go somewhere</a>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card border-0">
-              <img src="./img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="...">
-              <div class="card-body text-start">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary rounded-pill">Go somewhere</a>
+  
+            <div class="col-4">
+              <div class="card border-0">
+                <img src="./img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary rounded-pill">Go somewhere</a>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card border-0">
-              <img src="./img/dualshock-4-listing-thumb.jpg" class="card-img-top" alt="...">
-              <div class="card-body text-start">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary rounded-pill">Go somewhere</a>
+  
+            <div class="col-4">
+              <div class="card border-0">
+                <img src="./img/dualshock-4-listing-thumb.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-start">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary rounded-pill">Go somewhere</a>
+                </div>
               </div>
             </div>
+  
           </div>
-
         </div>
 
       </section>
@@ -334,20 +406,22 @@
 
         </div>
 
-        <div class="row justify-content-center">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
 
-          <div class="col-4">
-            <img src="./img/playstation-store-games-under-20-spotlight.jpg" alt="">
+            <div class="col-4">
+              <img src="./img/playstation-store-games-under-20-spotlight.jpg" alt="">
+            </div>
+
+            <div class="col-4">
+              <img src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+            </div>
+
+            <div class="col-4">
+              <img src="./img/playstation-store-free-to-play-spotlight.png" alt="">
+            </div>
+
           </div>
-
-          <div class="col-4">
-            <img src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
-          </div>
-
-          <div class="col-4">
-            <img src="./img/playstation-store-free-to-play-spotlight.png" alt="">
-          </div>
-
         </div>
 
       </section>
@@ -383,23 +457,25 @@
 
         <h3 class="py-5">Seguici sui social media</h3>
 
-        <div class="row justify-content-center pb-5">
+        <div class="container-fluid">
+          <div class="row justify-content-center pb-5">
 
-          <div class="col-2">
-            <img src="./img/twitter.jpg" alt="">
+            <div class="col-2">
+              <img src="./img/twitter.jpg" alt="">
+            </div>
+  
+            <div class="col-2">
+              <img src="./img/facebook.jpg" alt="">
+            </div>
+  
+            <div class="col-2">
+              <img src="./img/instagram.jpg" alt="">
+            </div>
+            <div class="col-2">
+              <img src="./img/youtube.png" alt="">
+            </div>
+  
           </div>
-
-          <div class="col-2">
-            <img src="./img/facebook.jpg" alt="">
-          </div>
-
-          <div class="col-2">
-            <img src="./img/instagram.jpg" alt="">
-          </div>
-          <div class="col-2">
-            <img src="./img/youtube.png" alt="">
-          </div>
-
         </div>
 
       </section>
@@ -407,56 +483,58 @@
     </main>
 
     <!-- footer website -->
-    <footer class="bg_foot row p-5 text-white">
- 
-      <div class="col">
-        <a href="/" class="align-items-left">
-          <img class="pb-5" src="./img/ps-footer.svg" alt="">
-        </a>
-        
-        <p><span class="global_svg me-3"><img src="./img/language-globe.svg" alt=""></span>Country/Region: Italy</p>
-      </div>
-  
-      <div class="col">
-  
-      </div>
-  
-      <div class="col">
-        
-        <!-- elenco elementi -->
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-        </ul>
-      </div>
-  
-      <div class="col">
-        
-        <!-- elenco elementi -->
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-        </ul>
-      </div>
-  
-      <div class="col">
-        
-        <!-- elenco elementi -->
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
-        </ul>
-      </div>
+    <footer class="container-fluid">
+      <div class="bg_foot row p-5 text-white">
 
+        <div class="col">
+          <a href="/" class="align-items-left">
+            <img class="pb-5" src="./img/ps-footer.svg" alt="">
+          </a>
+          
+          <p><span class="global_svg me-3"><img src="./img/language-globe.svg" alt=""></span>Country/Region: Italy</p>
+        </div>
+    
+        <div class="col">
+    
+        </div>
+    
+        <div class="col">
+          
+          <!-- elenco elementi -->
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+          </ul>
+        </div>
+    
+        <div class="col">
+          
+          <!-- elenco elementi -->
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+          </ul>
+        </div>
+    
+        <div class="col">
+          
+          <!-- elenco elementi -->
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">link foot n</a></li>
+          </ul>
+        </div>
+
+      </div>
     </footer>
 
 
